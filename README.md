@@ -1,4 +1,4 @@
-# @webship/workspace-test
+# @webship.co/workspace-test
 
 The **Test** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `test/` folder (type `sites`), its settings file (`core/config/workspace.test.settings.yml`),
