@@ -26,6 +26,14 @@
   "workspacePlugin": {
     "name": "test",
     "label": "Test",
+    "suggests": {
+      "commands": [
+        {
+          "command": "composer",
+          "hint": "https://getcomposer.org/download/"
+        }
+      ]
+    },
     "workspace": {
       "key": "test",
       "settingsTemplate": "config/workspace.test.settings.yml",
