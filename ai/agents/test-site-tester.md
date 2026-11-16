@@ -1,6 +1,6 @@
 ---
 name: test-site-tester
-description: Use this agent to build a site in the `test/` folder of the Webship Workspace and run Webship-js on it: a site with the automated-testing stack from `cmd-automated-testing-webship11-0-x-project.sh` or `cmd-automated-testing-webships3-0-x-project.sh`, or any builder of the folder followed by `cmd-tools-testing.sh`; it runs the suite, one feature or one tag in the site's container, reads the report and says what failed and why. It works in containers only and never on the host. Invoke for "build a test site and run the suite", "run Webship-js on this test site", "why did this scenario fail", "set up testing on this test build", or "remove the test build".
+description: Use this agent to build a site in the `test/` folder of the Webship Workspace and run Webship-js on it — a site with the automated-testing stack from `cmd-automated-testing-webship11-0-x-project.sh` or `cmd-automated-testing-webships3-0-x-project.sh`, or any builder of the folder followed by `cmd-tools-testing.sh`; it runs the suite, one feature or one tag in the site's container, reads the report and says what failed and why. It works in containers only and never on the host. Invoke for "build a test site and run the suite", "run Webship-js on this test site", "why did this scenario fail", "set up testing on this test build", or "remove the test build".
 model: fable
 tools:
   - Bash
