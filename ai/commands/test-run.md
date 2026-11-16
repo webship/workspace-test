@@ -61,3 +61,9 @@ Run it once. Do not add `--retry` and do not change a feature to make the run pa
 
 A failing suite is a result: report it as it is. For building a site first, hand over to the
 `test-site-tester` agent; the `test-workflow` skill lists every command of the folder.
+
+Before you write or change a scenario, or read a failed run, read the book *Automated Functional
+Testing Recipes* (its `README.md`, then the matching chapter):
+`.claude/automated-functional-testing-recipes/` in the project,
+`~/.claude/automated-functional-testing-recipes/`, or
+https://github.com/webship/webship-js-ai-agent/tree/2.0.x/automated-functional-testing-recipes
